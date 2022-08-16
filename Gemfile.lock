@@ -105,6 +105,8 @@ GEM
       mini_mime (>= 0.1.1)
     marcel (1.0.2)
     matrix (0.4.2)
+    merge_db_schema (0.2.0)
+      rainbow
     method_source (1.0.0)
     mini_mime (1.1.2)
     mini_portile2 (2.8.0)
@@ -152,6 +154,7 @@ GEM
       method_source
       rake (>= 12.2)
       thor (~> 1.0)
+    rainbow (3.1.1)
     rake (13.0.6)
     rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
@@ -226,6 +229,7 @@ DEPENDENCIES
   devise
   jbuilder (~> 2.7)
   listen (~> 3.3)
+  merge_db_schema
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.6, >= 6.1.6.1)
